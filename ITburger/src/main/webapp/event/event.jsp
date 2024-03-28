@@ -354,18 +354,12 @@ h2, p, a.button {
                modal.show();
            });
        });
-
-       
        document.querySelectorAll('.gallery .heart').forEach(heart => {
            heart.addEventListener('click', function() {
                const eventId = this.getAttribute('data-event-id');
                likeEvent(eventId);
            });
        });
-
-   
 </script>
-
-
 </body>
 </html>
